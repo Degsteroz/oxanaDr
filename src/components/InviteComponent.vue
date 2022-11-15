@@ -78,7 +78,7 @@ h2 {
   width: 250px;
 }
 
-@media (min-width: 460px) {
+@media (max-width: 375px) {
   .invite__container {
     flex-direction: column;
     text-align: center;
@@ -90,6 +90,9 @@ h2 {
   }
   .invite__image {
     width: 60%;
+  }
+  .invite__image:last-child {
+    margin-left: -60px !important;
   }
 }
 </style>

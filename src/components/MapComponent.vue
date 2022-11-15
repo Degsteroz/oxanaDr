@@ -23,7 +23,7 @@ const { iframeSrc, mapImage } = pageData
 .map__Image {
   height: 450px;
 }
-@media (min-width: 460px) {
+@media (max-width: 375px) {
   .map__Image {
     display: none;
   }
