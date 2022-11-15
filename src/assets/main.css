@@ -20,8 +20,9 @@ a,
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 460px) {
   body {
     display: flex;
+    padding: 0 40px;
   }
 }

@@ -38,4 +38,19 @@ const cakeSrc = 'https://www.wordsjustforyou.com/wp-content/uploads/2021/08/Happ
 .header__imageText {
   width: 700px;
 }
+
+@media (min-width: 460px) {
+  .header {
+    flex-direction: column;
+    padding: 5px;
+    background: aqua;
+  }
+  .header__image {
+    width: 50px;
+    height: 50px;
+  }
+  .header__imageText {
+    width: 100%;
+  }
+}
 </style>

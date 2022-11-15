@@ -13,7 +13,6 @@
       </div>
     </div>
     <div class="invite__textWrapper">
-      <div>
         <h2>{{greetings}}</h2>
         <div class="text__address">
           Место проведение <a :href="url" target="_blank">{{place}}</a>
@@ -23,7 +22,6 @@
         </div>
         <img :src="dressCodeImage" class="text__noSportImage"/>
       </div>
-    </div>
   </div>
 </template>
 <script setup>
@@ -78,5 +76,20 @@ h2 {
 }
 .text__noSportImage {
   width: 250px;
+}
+
+@media (min-width: 460px) {
+  .invite__container {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 5px;
+  }
+  .invite__textWrapper {
+    max-width: 100%;
+    align-items: center;
+  }
+  .invite__image {
+    width: 60%;
+  }
 }
 </style>

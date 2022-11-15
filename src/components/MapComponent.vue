@@ -2,6 +2,7 @@
   <img :src="mapImage" class="map__Image"/>
   <iframe
       :src="iframeSrc"
+      class="map__iFrame"
       width="600"
       height="450"
       style="border:0;"
@@ -21,5 +22,13 @@ const { iframeSrc, mapImage } = pageData
 <style scoped>
 .map__Image {
   height: 450px;
+}
+@media (min-width: 460px) {
+  .map__Image {
+    display: none;
+  }
+  .map__iFrame {
+    width: 100%;
+  }
 }
 </style>
