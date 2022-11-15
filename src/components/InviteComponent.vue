@@ -78,7 +78,7 @@ h2 {
   width: 250px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   .invite__container {
     flex-direction: column;
     text-align: center;

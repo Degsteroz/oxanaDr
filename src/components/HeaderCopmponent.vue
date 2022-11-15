@@ -39,7 +39,7 @@ const cakeSrc = 'https://www.wordsjustforyou.com/wp-content/uploads/2021/08/Happ
   width: 700px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   .header {
     flex-direction: column;
     padding: 5px;
