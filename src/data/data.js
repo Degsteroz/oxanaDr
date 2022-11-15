@@ -13,7 +13,7 @@ export default {
   dressCode: 'Спортивные костюмы надевать не надо!',
   dressCodeImage: 'https://m.media-amazon.com/images/I/61c37gQ5P-L._AC_SY741_.jpg',
   guests: {
-    melon: {
+    melonOlya: {
       names: ['Павел', 'Ольга'],
       images: [
         'https://pbs.twimg.com/profile_images/1350071059903631364/x2VQaey2_400x400.jpg',
@@ -24,6 +24,19 @@ export default {
       names: ['Алёна'],
       images: [
         'https://sun9-79.userapi.com/impf/c624424/v624424665/2bb8/jMKyi5iMgJg.jpg?size=640x640&quality=96&sign=ce974e4cf075435bde4e8d9da19f3629&type=album',
+      ]
+    },
+    dasha: {
+      names: ['Дарья'],
+      images: [
+        'https://sun9-41.userapi.com/impf/c636617/v636617759/4c6cb/qbXay7nbNqw.jpg?size=1118x960&quality=96&sign=1f563012cf9016267fdf2aa731bf2b5e&type=album'
+      ]
+    },
+    mishaAnya: {
+      names: ['Миша', 'Аня'],
+      images: [
+        'https://sun9-29.userapi.com/impf/c627323/v627323148/13a91/xjvNhZv3yxE.jpg?size=1280x853&quality=96&sign=4d9f110caaefe7a982ec021ec45bab99&type=album',
+        'https://sun9-87.userapi.com/s/v1/if1/jR3TBib7nGipooa6Kmbfc8SQV5S7-_bn9YhUrlwLE0bwKxKud2ReJjPNg57Sg0DipnS_Gubx.jpg?size=400x400&quality=96&crop=43,150,576,576&ava=1'
       ]
     }
   }

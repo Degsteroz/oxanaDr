@@ -2,15 +2,17 @@
   <div class="invite__container">
     <div class="invite__imageWrapper">
       <h1>{{greeting}}</h1>
-      <div>
+      <div class="imageContainer">
         <img
             v-for="(image, index) in guest.images"
             :src="image"
             :key="image"
             class="invite__image"
+            :class="{'secondImage': index === 1}"
             :style="{marginLeft: -100 * index + 'px'}"
         />
       </div>
+
     </div>
     <div class="invite__textWrapper">
         <h2>{{greetings}}</h2>
@@ -91,7 +93,7 @@ h2 {
   .invite__image {
     width: 60%;
   }
-  .invite__image:last-child {
+  .invite__image + .secondImage{
     margin-left: -60px !important;
   }
 }
