@@ -19,10 +19,10 @@
         <div class="text__address">
           Место проведение <a :href="url" target="_blank">{{place}}</a>
         </div>
-        <div>
+        <div v-if="guestId !== 'melonOlya'">
           {{dressCode}}
         </div>
-        <img :src="dressCodeImage" class="text__noSportImage"/>
+        <img :src="dressCodeImage" class="text__noSportImage" v-if="guestId !== 'melonOlya'"/>
       </div>
   </div>
 </template>
